@@ -173,46 +173,46 @@
 @-webkit-keyframes textTwo {
   0% {
     top: -100px;
-    left: 200px;
+    left:0;
   }
   25% {
     top: 0px;
-    left: 200px;
+    left:0;
   }
   50% {
     top: 195px;
-    left: 200px;
+    left: 0;
   }
   75% {
     top: 195px;
-    left: 425px;
+    left: 20vw;
   }
   100% {
     top: 195px;
-    left: 650px;
+    left: 33vw;
   }
 }
 
 @keyframes textTwo {
   0% {
     top: -100px;
-    left: 200px;
+    left:0;
   }
   25% {
     top: 0px;
-    left: 200px;
+    left:0;
   }
   50% {
     top: 195px;
-    left: 200px;
+    left: 0;
   }
   75% {
     top: 195px;
-    left: 425px;
+    left: 20vw;
   }
   100% {
     top: 195px;
-    left: 650px;
+    left: 33vw;
   }
 }
 
@@ -285,7 +285,7 @@ body {
 
 /* line 22, scss/main.scss */
 .container .line {
-  width: 35%;
+  width: 35vw;
   height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,7 +386,6 @@ body {
   position: absolute;
   /*top:195px;*/
   top: -100px;
-  left: 200px;
   color: grey;
   border: 1px solid black;
   -webkit-animation: textTwo 1s 1 22s linear forwards, flip 1s 1 24s linear forwards, disappear 1s 1 26s linear forwards;
